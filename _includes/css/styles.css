@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #fdfdfd;
+  background-image: url("/images/website-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.site-logo {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+
+.site-content {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  padding: 60px 0 0 0;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+@media screen and (min-height: 600px) {
+  .site-content {
+    padding: 88px 0 0 0;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  .site-content {
+    padding: 120px 0 0 0;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .site-content {
+    padding: 178px 0 0 0;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .site-content {
+    padding: 250px 0 0 0;
+  }
+}
+
+main {
+  min-height: 90vh;
+}
+
+.contact-us-form {
+  padding: 90px 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-us-form label {
+  font-weight: 700;
+}
+
+.btn-success {
+  font-weight: 600;
+  padding: 9px 30px;
+  border-radius: 8px;
+  border: 1px solid #2ecc71;
+  background-color: #2ecc71;
+}
+
+.btn-success:hover {
+  background-color: #16a085;
+}
+
+footer {
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+.btn-outline {
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.btn-outline:hover {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
